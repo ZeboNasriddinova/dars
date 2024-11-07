@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #676565;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.mavzu{
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+p{
+    font-size: 32px;
+    line-height: 46px;
+    margin: 50px;
+}
+.nazariy{
+    display: flex;
+    border: 10px double rgb(56, 89, 239);
+    margin: 30px;
+}
+.nazariy .item{
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.nazariy p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.z2{
+    display: flex;
+    border: 10px solid lime;
+    margin: 20px;
+}
+.z2 img{
+    width: 500px;
+    height: 450px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.z2 p{
+    font-size: 22px;
+    line-height: 26px;
+}
+.z4{
+    border: 10px dashed rgb(199, 231, 39);
+    display: flex;
+    
+    align-items: center;
+    margin: 20px;
+}
+.z4 .item{
+    width: 60%;
+}
+.z4 .item p{
+    width: 100%;
+    font-size: 20px;
+    line-height: 24px;
+}
+.z4 img{
+   width: 400px; 
+   height: 400px;
+   margin-left: 50px;
+
+}
+.z5 img{
+    margin: 30px;
+    width: 700px;
+    height: 500px;
+}
+.end{
+    height: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    border: 15px solid rgb(235, 53, 84);
+    margin:  100px;
+    box-shadow: 0 0 10px 7px white;
+}
+@media( max-width:700px){
+    .mavzu{
+        font-size: 38px;
+        margin-bottom: 44px;
+    }
+    p{
+        font-size: 22px;
+        line-height: 26px;
+        margin: 50px;
+        width: 100%;
+    }
+    .rasm img{
+width: 600px;
+height: 400px;
+    }
+    .nazariy{
+        display:block;
+        margin: 30px auto;
+        width: 100%;
+    }
+    .nazariy .item{
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    .nazariy p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .z2{
+        display: block;
+        border: 10px solid lime;
+        margin: 20px;
+    }
+    .z2 img{
+        width: 500px;
+        height: 450px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .z2 p{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .z4{
+        border: 10px dashed rgb(199, 231, 39);
+        display:block;
+        
+        align-items: center;
+        margin: 20px;
+    }
+    .z4 .item{
+        width: 100%;
+    }
+   
+    
+    
+    .end{
+        margin:  50px 10px;
+    }
+    
+    
+}
+
